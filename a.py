@@ -22,10 +22,10 @@ def get_company_url(company_name, api_key, cse_id):
         return f"Error: {response.status_code}"
 
 # === Configuration ===
-api_key = "AIzaSyCPr3u1vqFWYlQW_zeN65S7y3W4_QiFHXM"    # Replace this
+api_key = "AIzaSyD0D5h2mQqu6CnN9vE_zHVBO01cpVPKSp0"    # Replace this
 cse_id = "32ffd6aedf0b34bf3"      # Replace this
 input_file = "companies.txt"
-output_file = "company_urls1212.xlsx"
+output_file = "updated1.xlsx"
 
 # === Step 1: Read company names with UTF-8 ===
 with open(input_file, 'r', encoding='utf-8') as file:
