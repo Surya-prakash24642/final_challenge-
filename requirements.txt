@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+google-generativeai
+duckduckgo-search
+selenium
+webdriver-manager
